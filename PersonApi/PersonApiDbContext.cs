@@ -15,7 +15,7 @@ namespace PersonApi
 
         protected override void OnConfiguring(DbContextOptionsBuilder ob)
         {
-            ob.UseNpgsql("User ID=postgres;Password=baris0307;Host=localhost;Port=5432;Database=postgres;Pooling=true;", x => x.MigrationsAssembly("PersonApi"));
+            ob.UseNpgsql("User ID=postgres;Password=;Host=localhost;Port=5432;Database=postgres;Pooling=true;", x => x.MigrationsAssembly("PersonApi"));
             base.OnConfiguring(ob);
         }
 
