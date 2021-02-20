@@ -2,6 +2,8 @@
 Rise tech assessment project.
 
 Merhaba. Projenin çalıştırılabilmesi için bilgisayarınızda apache kafka ve postgresql yüklü olmalıdır.
+Tek solution iki web api projesi içermektedir. O yüzden solution multiple startup için ayarlanmalıdır.
+.net core 5 kullanılmıştır.
 
 KAFKA
 
