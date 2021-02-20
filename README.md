@@ -5,6 +5,8 @@ Merhaba. Projenin çalıştırılabilmesi için bilgisayarınızda apache kafka 
 
 KAFKA
 
+Kafka'nın çalışması için Java Runtime Environment 8 gereklidir. Öncelikle Oracle'dan JRE 8'i indirip kurunuz.
+
 Kafka'nın ana klasörüne giderek command prompt açınız. Windows explorer'da o klasördeyken adres çubuğuna "cmd" yazarak açabilirsiniz.
 Ardından kafka ile birlikte gelen ve kafkanın çalışmasını sağlayan zookeeper servisini başlatmak için aşağıdaki komutu command prompt'a giriniz.
 
