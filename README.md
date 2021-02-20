@@ -7,13 +7,20 @@ KAFKA
 
 Kafka'nın ana klasörüne giderek command prompt açınız. Windows explorer'da o klasördeyken adres çubuğuna "cmd" yazarak açabilirsiniz.
 Ardından kafka ile birlikte gelen ve kafkanın çalışmasını sağlayan zookeeper servisini başlatmak için aşağıdaki komutu command prompt'a giriniz.
+
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
 Hemen ardından kafkayı da başlatmak için bir command prompt daha açarak aşağıdaki komutu giriniz.
+
 .\bin\windows\kafka-server-start.bat .\config\server.properties
+
 Proje kafka içerisinde iki topic'den yararlanmaktadır.
 Bu topic'leri kurmak için bir komut istemi daha açarak aşağıdaki komutları giriniz.
+
 .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic ContactTopic
+
 .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic RequestTopic
+
 Artık kafka çalışmaya hazır.
 
 Postgresql
