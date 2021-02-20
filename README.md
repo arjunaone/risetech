@@ -25,7 +25,7 @@ Artık kafka çalışmaya hazır.
 
 Postgresql
 
-Proje içerinde iki ayrı servis (web api) için de DbContext sınıf dosyaları bulunmaktadır. Postgresql bağlantı string'leri bu dosyaların içindedir.
+Proje içerisinde iki ayrı servis (web api) için de DbContext sınıf dosyaları bulunmaktadır. Postgresql bağlantı string'leri bu dosyaların içindedir.
 Ancak "Password=" kısımlarının karşılıkları boştur. Siz kendi sisteminizde "postgres" kullanıcısı için hangi şifreyi kullanıyorsanız yazınız.
 Tabi ki "postgres" kullanıcısını kullanmak zorunda değilsiniz. Dilerseniz string içindeki "User Id=" karşılığını da değiştirerek farklı kullanıcı ile veritabanına bağlanabilirsiniz.
 
