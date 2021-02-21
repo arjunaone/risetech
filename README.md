@@ -36,7 +36,7 @@ Proje içerisinde iki ayrı servis (web api) için de DbContext sınıf dosyalar
 Ancak "Password=" kısımlarının karşılıkları boştur. Siz kendi sisteminizde "postgres" kullanıcısı için hangi şifreyi kullanıyorsanız yazınız.
 Tabi ki "postgres" kullanıcısını kullanmak zorunda değilsiniz. Dilerseniz string içindeki "User Id=" karşılığını da değiştirerek farklı kullanıcı ile veritabanına bağlanabilirsiniz.
 
-Normalde farklı mikroservisler farklı veritabanlarında çalışabilirken, bu projede iki servis de sadelik amacıyla aynı veritabanını kullanmaktadır.
+Normalde farklı mikroservisler farklı veritabanlarında çalışabilirken, bu projede iki servis de pratiklik amacıyla aynı veritabanını kullanmaktadır.
 
 Bağlantı string'lerinizi hazırladıktan sonra Package Manager Console'u açınız ve her iki servis için de "update-database" komutunu çalıştırınız.
 Migration dosyaları proje içindedir.
