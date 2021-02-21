@@ -3,6 +3,9 @@ Rise tech assessment project.
 
 Merhaba. Projenin çalıştırılabilmesi için bilgisayarınızda apache kafka ve postgresql yüklü olmalıdır.
 Tek solution iki web api projesi içermektedir. O yüzden solution multiple startup için ayarlanmalıdır.
+Solution üzerine sağ tıklayıp properties menüsünden ayarlanabilir.
+Port çakışması olmaması için projelerin IIS Express profili ile çalıştırılmaya ayarlı olduğundan emin olunuz.
+Projenin profiline proje adına sağ tıklayarak properties menüsündeki debug sekmesinden ulaşabilirsiniz.
 .net core 5 kullanılmıştır.
 
 KAFKA
